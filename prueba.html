@@ -1,0 +1,45 @@
+<!DOCTYPE html><!--define tipo de documento-->
+<html><!--se escribe todo entre esto-->
+    <head><!--Encabezado, no esta visible para el usuario-->
+        <meta charset="utf-8"> <!--definimos el juego de caracteres que vamos a usar. el 8 incluye todos los caracteres existentes-->
+        <title>Hola mundo</title> <!--Title establece el titulo que aparece en la pestaña de la barra de navegador, tambien se usa para describir la pagina cuando se añade en favoritos la pagina en marcadores-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!-- BOOSTRAP. link href es para llamar un estilo, ya sea un link externo o dentro de nuestra compu-->
+    </head>
+    <body><!--Cuepo de la pagina. Se pone todo el contenido que se le quiere mostrar al usuario-->
+        <h1>Hola mundo</h1><!--titulo. El numero despues de la h marca el tamaño--> 
+        <h2>Hola mundo 2</h2><!--Titulo con otro tamaño-->
+        <h3>Hola mundo 3</h3><!--Titulo con otro tamaño-->
+        <div class="container p-5 my-5 border">Padding crea espacio extra dentro de un elemento. En contraste, margin crea espacio extra alrededor de un elemento.<!--Texto que va dentro del contenedor--></div><!--Define estilo al contenedor, Padding y margin-->
+        <div class="container p-5 my-5 bg-dark text-white">La propiedad background es un atajo para definir los valores individuales del fondo en una única regla CSS</div><!--Define estilo al contenedor. Pagging, margin y background-->
+        <div class="container p-5 my-5 bg-primary text-white">bg-primary un texto importante con el fondo coloreado.</div><!--Define estilo al contenedor, Pagging, margin, background y primary-->
+        <div class="container-fluid p-5 my-5 bg-primary text-white">bg-primary un texto importante con el fondo coloreado.</div><!--Define estilo al contenedor, Pagging, margin, background y primary-->
+        <div class="conteiner p-2 my-2"><!--Grilla-->
+            <div class="row"><!--Fila-->
+                <div class="col">.col</div><!--Columna-->
+                <div class="col">.col</div><!--Columna-->
+                <div class="col">.col</div><!--Columna-->
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><!--Importar la libreria de JavaScript-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn" crossorigin="anonymous"></script><!--Importar la libreria de JavaScript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script><!--Importar la libreria de JavaScript-->
+    </body>
+    <footer><!--Pie de la pagina web. Se suelen colocar links de accesos directos a la pagina web, datos de redes sociales, el coopyrigth, etc-->
+    </footer>
+</html>
+
+
+
+
+<!-- 
+    Boostrap se basa en un sistema de grillas, que esta super desarrollado, es preciso y es claro.
+    Se adapta a los diferentes tamaños de dispositivos. Hace la pagina responsiva.
+    Tiene diferentes variadade de componentes y una extensa variedades de Templates que se pueden utilizar como base para el diseño.
+-->
+<!-- 
+    uso de grillas facilita herramientas a desarrolladores.
+    Las filas deben estar dentro de un contenedor.
+    Se deben usar filas(row) para crear columnas(col). Nunca al revez
+    El contenido va a estar dentro de las columnas.
+    Las columnas se crean especificando el numero que hay. Nunca va a sueperar el maximo de 12.
+-->
