@@ -1,0 +1,14 @@
+p { /*clase de estilo con nombre p*/
+    font-family: 'helvetica neue', helvetica, sans-serif; /*Nombre de fuente*/
+    letter-spacing: 1px; /*Espacio entre letras*/
+    text-transform: uppercase;
+    text-align: center; /*Aliniacion*/
+    border: 2px solid rgba(0,0,200,0.6); /*Borde del boton y color*/
+    background: rgba(0,0,200,0.3); /*Fondo*/
+    color: rgba(0,0,200,0.6);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4); /* Sombre*/
+    border-radius: 10px; /* Bordes redondeados al boton*/
+    padding: 3px 10px; /*Distancia interna entre bordes y textos*/
+    display: inline-block;
+    cursor: pointer;
+  }
