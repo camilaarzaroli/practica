@@ -1,0 +1,16 @@
+Crear componentes en el cmd:
+ng generate component components/nommbreDeComponente
+
+Instalar bootstrap
+npm install bootstrap jquery @popperjs/core –save
+(funciona tambien sin el save)
+-- Una vez intalado en angular.json--
+**Style (agregar):
+node_modules/bootstrap/dist/css/bootstrap.min.css
+**Scripts (agregar):
+"node_modules/jquery/dist/jquery.min.js",
+"node_modules/@popperjs/core/dist/umd/popper.min.js",
+"node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+Iniciar el servidor
+ng serve
